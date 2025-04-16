@@ -44,6 +44,11 @@ a{
     margin-right: 15%;
 }
 
+.content-right figcaption{
+    text-align: center;
+    color: white;
+}
+
 .first-body{
     background-color: #1F2937;
     padding-bottom: 150px;
@@ -76,4 +81,50 @@ a{
     border-radius: 5px;
     padding: 8px 24px;
     font-weight: bolder;
+}
+
+.second-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    padding-bottom: 100px;
+}
+
+.container{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.block{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 18px;
+    color: #1F2937;
+}
+
+.blue-square{
+    box-sizing: border-box;
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3882F6;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: row-wrap;
+}
+
+.blue-square img{
+    width: 100%;
+    object-fit: cover; 
+    object-position: center;
+    border-radius: 15px;
+}
+
+.third-body{
+    background-color: #E5E7EB;
 }
