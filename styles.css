@@ -127,4 +127,27 @@ a{
 
 .third-body{
     background-color: #E5E7EB;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.quote{
+    margin-top: 100px;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    padding: 0px;
+}
+
+.author{
+    padding: 0px;
+    margin: 0px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: 25%;
 }
